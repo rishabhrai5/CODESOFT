@@ -1,0 +1,121 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+html {
+    background-color: #f4f6f9;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-indent: 50px;
+    line-height: 1.4;
+}
+
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    list-style-type: circle;
+}
+
+li {
+    padding: 5px 2px;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 10px 50px 10px;
+    background-color: #deeef7;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+    padding: 40px 70px 1px;
+    text-shadow: 6px 1px #75bfe1;
+}
+
+#kohli {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #b0d1fe;
+    padding: 50px 20px;
+}
+
+.pt1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px 30px;
+    background-image: linear-gradient(to right, #d9f9ac, #072f4f);
+}
+
+.batting {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 50px 20px;
+}
+
+.pt2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px 30px 30px 50px;
+    background-image: linear-gradient(to left, #E0F4FF, #051929);
+}
+
+.playing {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 50px 5px;
+}
+
+/* Stats Table */
+.stats {
+    padding: 50px 20px;
+    background-color: #E0F4FF;
+}
+
+.stats h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats th, .stats td {
+    border: 1px solid #072d4c;
+    padding: 10px;
+    text-align: center;
+}
+
+.stats th {
+    background-color: #0e508a;
+    color: rgb(233, 240, 241);
+}
+
+.stats tr:nth-child(even) {
+    background-color: #838b8f;
+}
+
+/* Hover effects */
+#hoverEffect img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #067067;
+    color: rgb(238, 11, 11);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
